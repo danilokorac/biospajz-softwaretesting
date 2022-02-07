@@ -1,0 +1,7 @@
+Kontakt =4.05 sekunde
+Razne namirnice =3.88 sekunde
+Saveti =4.64 sekunde
+Kozmetika i higijena =4.01 sekunde
+Zacini i pikant dodaci =4.06 sekunde
+Kategorije =4.01 sekunde
+Prosecno vreme ucitavanja svih stranica je:  4.11 sekunde

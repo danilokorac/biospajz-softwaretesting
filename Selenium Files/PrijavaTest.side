@@ -1,0 +1,231 @@
+{
+  "id": "544c7366-9672-4567-b898-5ad21cf4343b",
+  "version": "2.0",
+  "name": "ProjectTSW",
+  "url": "https://www.biospajz.rs/moj-nalog/",
+  "tests": [{
+    "id": "aa4bf479-29f0-46ed-bfe0-789ac0b6a0e0",
+    "name": "RegistracijaTest",
+    "commands": [{
+      "id": "1891af59-5ece-4987-a68a-f3a79e7a0e81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d0af80d-5681-4dc7-9f8b-21b25e55e675",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57eb08aa-5f4a-4fdf-bcd7-04ef0a3c8272",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-s7j65e path:nth-child(2)",
+      "targets": [
+        ["css=.css-s7j65e path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d108864-3a0b-4ed7-9cdd-781598e74121",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1efa4fo",
+      "targets": [
+        ["css=.css-1efa4fo", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/h2[2]/button", "xpath:idRelative"],
+        ["xpath=//h2[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b6095b7-24f2-46db-83da-29ec3965c993",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.css-1ltfa44:nth-child(3) > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9c4435-1f25-4fde-97c5-d2c7f8c4f527",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.css-1ltfa44:nth-child(3) > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "yung99kv@gmail.com"
+    }, {
+      "id": "32ef96af-8d14-4765-a021-b6646c37927c",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99ed3aca-9e88-4cae-a427-e1c2d5a7938e",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "tsw2021"
+    }, {
+      "id": "7c4e50ee-3c1a-46f3-b28d-c1a25b0be051",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1seh2f8",
+      "targets": [
+        ["css=.css-1seh2f8", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e78d3bfd-4b56-4a19-a6e8-de7789a61deb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1seh2f8",
+      "targets": [
+        ["css=.css-1seh2f8", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1a97f30b-da45-40d9-b251-5115b21f396d",
+    "name": "PrijavaTest",
+    "commands": [{
+      "id": "8d1567c0-c5a3-44e5-88e8-86853faee80a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.biospajz.rs/moj-nalog/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ac6e7b5-d5f9-4ae1-b42e-deae36545bb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1055x810",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a94c1a1b-f9d5-4b1c-ad9e-562661c25765",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-ykwscm svg",
+      "targets": [
+        ["css=.css-ykwscm svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b83a1821-12e1-4619-a3b7-6f12026878b9",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.css-1ltfa44:nth-child(3) > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64961002-cb68-4ec1-8c6c-1bc31a64facb",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=.css-1ltfa44:nth-child(3) > #email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "yung99kv@gmail.com"
+    }, {
+      "id": "bcf5cae8-9892-4880-a7d4-9d4f66d7c7ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e652b66-fc22-4f2b-a847-f6ce12b68d0a",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "tsw2021"
+    }, {
+      "id": "ab253a68-96fe-4a1f-83e2-2687d6d888a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1seh2f8",
+      "targets": [
+        ["css=.css-1seh2f8", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginRegisterForm']/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "15a609d4-5d48-451c-89a2-18c85d0ed0ec",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.biospajz.rs/", "https://www.biospajz.rs/moj-nalog/"],
+  "plugins": []
+}
